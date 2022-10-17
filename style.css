@@ -1,0 +1,114 @@
+html {
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fafafa;
+}
+/*--------------Úvodní fotka s popiskem-----------*/
+.centrovani {
+  margin: 0 auto;
+  max-width: 640px;
+  border: 1px solid gainsboro;
+}
+
+.obsah {
+  padding: 0 20px 20px 20px;
+  text-align: center;
+}
+
+.cestovatel {
+  padding-top: 60px;
+}
+
+.velkyNadpis {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.box {
+  width: 60px;
+  margin: auto;
+}
+.cara {
+  border-top: 2px solid #407bff;
+}
+
+.odstavec {
+  font-size: 16px;
+  font-weight: 300;
+
+  color: #8b8b8b;
+}
+.specializace {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/*--------------Tlačítka-----------*/
+.tlacitka {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.tlacitka a {
+  display: block;
+  padding: 10px 30px 10px 30px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+}
+
+li .modre {
+  margin: auto;
+  width: 195px;
+  background-color: #407bff;
+}
+
+li .sede {
+  margin: 10px auto;
+  width: 221px;
+  background-color: #8b8b8b;
+}
+
+/*-----Služby naší cestovní kanceláře---*/
+
+.nadpisy2 {
+  margin-top: 60px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.destinace {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.karta {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 4px 6px 0px rgba(64, 123, 255, 0.1);
+}
+
+.flex p {
+  padding: 30px 20px 20px 30px;
+  font-size: 13px;
+  font-weight: 300;
+  color: #8b8b8b;
+}
+
+.flex img {
+  padding-left: 20px;
+}
