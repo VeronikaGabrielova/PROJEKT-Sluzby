@@ -24,16 +24,18 @@ body {
 }
 
 .cestovatel {
+  max-width: 100%;
   padding-top: 60px;
 }
 
-.velkyNadpis {
+.nadpis1 {
   margin-top: 40px;
   margin-bottom: 10px;
   font-size: 28px;
+  font-weight: 500;
 }
 
-.box {
+.carabox {
   width: 60px;
   margin: auto;
 }
@@ -45,13 +47,10 @@ body {
 .odstavec {
   font-size: 16px;
   font-weight: 300;
-margin-bottom: 30px;
+  margin-bottom: 30px;
   color: #8b8b8b;
 }
-.specializace {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
+
 /*--------------Tlačítka-----------*/
 .tlacitka {
   padding: 0;
@@ -71,28 +70,23 @@ margin-bottom: 30px;
 
 li .modre {
   margin: auto;
-  width: 195px;
+  max-width: 195px;
   background-color: #407bff;
 }
 
 li .sede {
   margin: 10px auto;
-  width: 221px;
+  max-width: 221px;
   background-color: #8b8b8b;
 }
 
-/*-----Služby naší cestovní kanceláře---*/
+/*-----------Služby---------------*/
 
 .nadpisy2 {
   margin-top: 60px;
   margin-bottom: 15px;
   font-size: 16px;
   font-weight: 500;
-}
-
-.destinace {
-  margin-top: 15px;
-  margin-bottom: 30px;
 }
 
 .karta {
@@ -103,16 +97,20 @@ li .sede {
   background-color: white;
   box-shadow: 0px 4px 6px 0px rgba(64, 123, 255, 0.1);
 }
-
-.flex p {
-  padding: 30px 20px 20px 30px;
-  font-size: 13px;
-  font-weight: 300;
-  color: #8b8b8b;
-}
-
 .obsahKarty {
   display: flex;
   padding-left: 20px;
 }
 
+.popisky {
+  padding: 30px 20px 20px 30px;
+  margin: 0;
+  font-size: 13px;
+  font-weight: 300;
+  color: #8b8b8b;
+}
+
+.ikony {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
