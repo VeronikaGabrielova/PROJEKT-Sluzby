@@ -14,18 +14,17 @@ body {
 /*--------------Úvodní fotka s popiskem-----------*/
 .centrovani {
   margin: 0 auto;
-  max-width: 640px;
+
   border: 1px solid gainsboro;
 }
 
 .obsah {
-  padding: 0 20px 60px 20px;
+  padding: 60px 20px 60px 20px;
   text-align: center;
 }
 
 .cestovatel {
   max-width: 100%;
-  padding-top: 60px;
 }
 
 .nadpis1 {
@@ -114,3 +113,51 @@ li .sede {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+/*-----------------TABLET--------------------*/
+
+@media screen and (min-width: 640px) {
+  .nadpisy2 {
+    margin-top: 80px;
+  }
+
+  .odstavec {
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+
+  .texty {
+    margin-bottom: 40px;
+  }
+
+  .tlacitka {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+  }
+  li .sede {
+    margin: 0;
+  }
+
+  .karty {
+    display: flex;
+    gap: 20px;
+  }
+  .karta {
+    flex: 1 1 calc(100% / 3);
+    margin-top: 0;
+  }
+
+  .obsahKarty {
+    display: block;
+    padding: 40px 15px 20px 15px;
+  }
+  .popisky {
+    padding: 0;
+  }
+  .ikony {
+    padding: 0 0 20px 0;
+  }
+}
+
+
