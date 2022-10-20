@@ -11,10 +11,9 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #fafafa;
 }
-/*--------------Úvodní fotka s popiskem-----------*/
+/*--------------Úvodní fotka s popiskem-------------*/
 .centrovani {
   margin: 0 auto;
-
   border: 1px solid gainsboro;
 }
 
@@ -50,7 +49,7 @@ body {
   color: #8b8b8b;
 }
 
-/*--------------Tlačítka-----------*/
+/*--------Tlačítka-----*/
 .tlacitka {
   padding: 0;
   margin: 0;
@@ -79,7 +78,7 @@ li .sede {
   background-color: #8b8b8b;
 }
 
-/*-----------Služby---------------*/
+/*------Služby----*/
 
 .nadpisy2 {
   margin-top: 60px;
@@ -101,7 +100,7 @@ li .sede {
   padding-left: 20px;
 }
 
-.popisky {
+.popiskyKarty {
   padding: 30px 20px 20px 30px;
   margin: 0;
   font-size: 13px;
@@ -113,7 +112,7 @@ li .sede {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/*-----------------TABLET--------------------*/
+/*---------------------TABLET-----------------------*/
 
 @media screen and (min-width: 640px) {
   .nadpisy2 {
@@ -152,15 +151,16 @@ li .sede {
     display: block;
     padding: 40px 15px 20px 15px;
   }
-  .popisky {
-    padding: 0;
-  }
+
   .ikony {
     padding: 0 0 20px 0;
   }
+  .popiskyKarty {
+    padding: 0;
+  }
 }
 
-/*----------------Desktop-----------------*/
+/*---------------------Desktop----------------------*/
 
 @media screen and (min-width: 1100px) {
   .obsah {
@@ -180,7 +180,7 @@ li .sede {
     margin: 0 auto;
   }
 
-  /*----------------textová polovina-------------*/
+  /*---textová polovina---*/
   .veselecestovani {
     min-width: 491px;
   }
@@ -188,47 +188,50 @@ li .sede {
   .veselyobsah {
     text-align: left;
   }
-  .odstavec {
-    padding: 0;
-  }
 
   .carabox {
     margin: 0;
+  }
+  .odstavec {
+    padding: 0;
   }
 
   .tlacitka {
     justify-content: left;
     margin-bottom: 150px;
   }
-  /*----------------Služby naši kanceláře-------------*/
+  /*------Služby-------*/
 
   .flexkancelar {
     display: flex;
     flex-direction: row-reverse;
     margin-bottom: 80px;
-    max-height: 190px;
   }
   .popissluzeb {
     display: flex;
   }
   .sluzby {
-    text-align: left;
     margin-left: 60px;
+    text-align: left;
+  }
+
+  .nadpisy2 {
+    margin-top: 40px;
   }
 
   .karta {
     width: 170px;
   }
 
+  .obsahKarty {
+    padding-bottom: 40px;
+  }
+
   .flexdelegati {
     display: flex;
-    max-height: 190px;
   }
   .sluzby2 {
-    text-align: left;
     margin-right: 60px;
-  }
-  .nadpisy2 {
-    margin-top: 40px;
+    text-align: left;
   }
 }
